@@ -10,9 +10,14 @@
 <body>
 
 <header>
-    <nav>
-        <h1>Urban Housing Village</h1>
-        <ul>
+    <nav class="navbar">
+        <h1 class="logo">Urban Housing Village</h1>
+
+        <div class="menu-toggle" id="menu-toggle">
+            ☰
+        </div>
+
+        <ul class="nav-links" id="nav-links">
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="apartments.html">Apartments</a></li>
@@ -157,6 +162,13 @@
 <footer>
     <p>© 2026 Urban Housing Village | All Rights Reserved</p>
 </footer>
+<script>
+    const toggle = document.getElementById("menu-toggle");
+    const navLinks = document.getElementById("nav-links");
 
+    toggle.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+    });
+</script>
 </body>
 </html>
