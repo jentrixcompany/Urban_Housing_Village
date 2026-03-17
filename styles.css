@@ -61,11 +61,17 @@ nav ul li a {
 }
 
 .card {
-    background: #f4f4f4;
-    padding: 20px;
-    margin: 10px;
+    background: white;
+    padding: 25px;
+    margin: 15px;
     width: 300px;
-    border-radius: 10px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
 }
 
 /* Footer */
@@ -216,4 +222,46 @@ button {
     .hero p {
         font-size: 16px;
     }
+}
+
+/* GENERAL PAGE BACKGROUND */
+body {
+    background: #f4f6f9;
+}
+
+/* ALTERNATING SECTIONS */
+.section:nth-child(even) {
+    background: #ffffff;
+}
+
+.section:nth-child(odd) {
+    background: #eef2f7;
+}
+
+.section h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #2c3e50;
+}
+
+.section {
+    padding: 60px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+footer {
+    background: #2c3e50;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.section p {
+    color: #555;
+    max-width: 700px;
+    margin: auto;
+}
+
+.section.hero {
+    background: linear-gradient(to right, #2c3e50, #4ca1af);
 }
