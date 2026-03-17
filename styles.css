@@ -38,7 +38,7 @@ nav ul li a {
 
 /* Hero */
 .hero {
-    background: url('../images/apartment.jpg') center/cover;
+    background: url('https://images.unsplash.com/photo-1560448204-e02f11c3d0e2') center/cover no-repeat;
     height: 80vh;
     color: white;
     display: flex;
@@ -46,7 +46,6 @@ nav ul li a {
     align-items: center;
     text-align: center;
 }
-
 /* Section */
 .section {
     padding: 40px;
