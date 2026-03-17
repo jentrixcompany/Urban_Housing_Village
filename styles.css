@@ -107,3 +107,29 @@ button {
     transform: scale(1.05);
     transition: 0.3s;
 }
+
+/* Better spacing */
+.section {
+    padding: 60px 20px;
+}
+
+/* Card shadow */
+.card {
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Button style */
+button {
+    background: #2980b9;
+    padding: 12px 20px;
+    border-radius: 5px;
+}
+
+/* Responsive (VERY IMPORTANT) */
+@media (max-width: 768px) {
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+}
