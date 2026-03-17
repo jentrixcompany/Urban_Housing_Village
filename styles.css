@@ -38,8 +38,7 @@ nav ul li a {
 
 /* Hero */
 .hero {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-                url('https://images.unsplash.com/photo-1560448204-e02f11c3d0e2') center/cover no-repeat;
+    background: url('https://images.unsplash.com/photo-1560448204-e02f11c3d0e2') center/cover no-repeat;
     height: 80vh;
     color: white;
     display: flex;
